@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FitDosis — Privacy Policy / Política de Privacidad</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f5f5f7;
+    --border: #e2e2e6;
+    --text: #1a1a1a;
+    --text-secondary: #5b5b63;
+    --accent: #c2410c;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121212;
+      --surface: #1c1c1e;
+      --border: #2e2e32;
+      --text: #f2f2f2;
+      --text-secondary: #a0a0a6;
+      --accent: #ff8a4c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121212;
+    --surface: #1c1c1e;
+    --border: #2e2e32;
+    --text: #f2f2f2;
+    --text-secondary: #a0a0a6;
+    --accent: #ff8a4c;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: inherit; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 36px);
+    margin: 0 0 8px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  .lang-switch {
+    margin-top: 20px;
+    display: flex;
+    gap: 8px;
+  }
+  .lang-switch button {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  section.lang { display: none; }
+  section.lang.active { display: block; }
+  h2 {
+    font-size: 19px;
+    margin: 36px 0 10px;
+    border-top: 1px solid var(--border);
+    padding-top: 28px;
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { color: var(--text); font-size: 15.5px; }
+  ul { padding-left: 20px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 18px 0;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="badge">FitDosis</span>
+    <h1>Privacy Policy / Política de Privacidad</h1>
+    <div class="updated">Last updated / Última actualización: October 2, 2026</div>
+    <div class="lang-switch">
+      <button id="btn-en" class="active" onclick="showLang('en')">English</button>
+      <button id="btn-es" onclick="showLang('es')">Español</button>
+    </div>
+  </header>
+
+  <section id="lang-en" class="lang active">
+    <p>This Privacy Policy describes how FitDosis ("the app", "we", "us") handles information when you use the application. FitDosis is developed by an independent developer ("Matteo Dev").</p>
+
+    <h2>1. Information the app collects</h2>
+    <p>FitDosis does not require account creation or login. The information you enter (weight, height, age, gender, physical activity level, and goal) is used exclusively to calculate your estimated daily nutrition needs (calories, protein, water, fiber, and BMI).</p>
+    <div class="card">
+      <strong>All of this information is stored locally on your device only.</strong> It is never sent to, or stored on, any server operated by the developer. We do not have access to it, and it is not shared with any third party for purposes unrelated to the app's basic functioning.
+    </div>
+
+    <h2>2. History and progress tracking</h2>
+    <p>If you choose to save a calculation, the app stores a local record (date, entered data, and results) on your device, so you can view your progress over time. This history can be deleted by you at any time from within the app, and is automatically tied to your device only.</p>
+
+    <h2>3. Advertising (Google AdMob)</h2>
+    <p>FitDosis displays advertising provided by Google AdMob to support free access to the app. AdMob may collect certain technical information (such as an advertising identifier, device type, and approximate location) in order to serve ads, in accordance with Google's own policies. We do not control what data AdMob collects beyond what Google documents publicly.</p>
+    <p>You can review how Google handles this data here: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">How Google uses information from sites or apps that use Google services</a>.</p>
+
+    <h2>4. In-app purchase (Remove Ads)</h2>
+    <p>If you purchase the "Remove Ads" option, the transaction is processed entirely by Google Play's billing system. We do not receive or store your payment details — only a confirmation that the purchase was completed, stored locally on your device to disable ads.</p>
+
+    <h2>5. Children's privacy</h2>
+    <p>FitDosis is a general-audience nutrition calculator and is not directed at children. We do not knowingly collect personal information from children. The app does not request or store any information that would identify a user as a minor.</p>
+
+    <h2>6. Health disclaimer</h2>
+    <p>FitDosis provides general nutrition estimates based on published formulas (such as Mifflin-St Jeor) and is not a substitute for professional medical or nutritional advice. Always consult a qualified health professional before making significant changes to your diet or exercise routine.</p>
+
+    <h2>7. Data retention and deletion</h2>
+    <p>Since all personal data is stored locally on your device, you can delete it at any time by using the in-app "delete history" options, or by uninstalling the app, which removes all locally stored data.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected on this same page with an updated "Last updated" date.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have questions about this Privacy Policy, you can contact us at: <a href="mailto:chakra.akasha@gmail.com">chakra.akasha@gmail.com</a></p>
+  </section>
+
+  <section id="lang-es" class="lang">
+    <p>Esta Política de Privacidad describe cómo FitDosis ("la app", "nosotros") maneja la información cuando usás la aplicación. FitDosis es desarrollada por un desarrollador independiente ("Matteo Dev").</p>
+
+    <h2>1. Información que recolecta la app</h2>
+    <p>FitDosis no requiere crear una cuenta ni iniciar sesión. La información que ingresás (peso, altura, edad, sexo, nivel de actividad física y objetivo) se usa exclusivamente para calcular tus necesidades nutricionales diarias estimadas (calorías, proteína, agua, fibra e IMC).</p>
+    <div class="card">
+      <strong>Toda esta información se guarda únicamente de forma local en tu dispositivo.</strong> Nunca se envía ni se almacena en ningún servidor operado por el desarrollador. No tenemos acceso a ella, y no se comparte con terceros para fines ajenos al funcionamiento básico de la app.
+    </div>
+
+    <h2>2. Historial y seguimiento de progreso</h2>
+    <p>Si elegís guardar un cálculo, la app guarda un registro local (fecha, datos ingresados y resultados) en tu dispositivo, para que puedas ver tu progreso a lo largo del tiempo. Este historial puede ser eliminado por vos en cualquier momento desde dentro de la app, y está atado únicamente a tu dispositivo.</p>
+
+    <h2>3. Publicidad (Google AdMob)</h2>
+    <p>FitDosis muestra publicidad provista por Google AdMob para sostener el acceso gratuito a la app. AdMob puede recolectar cierta información técnica (como un identificador publicitario, tipo de dispositivo y ubicación aproximada) para mostrar anuncios, de acuerdo con las propias políticas de Google. No controlamos qué datos recolecta AdMob más allá de lo que Google documenta públicamente.</p>
+    <p>Podés revisar cómo maneja Google esta información acá: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a> y <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Cómo usa Google la información de sitios o apps que usan servicios de Google</a>.</p>
+
+    <h2>4. Compra dentro de la app (Quitar anuncios)</h2>
+    <p>Si comprás la opción "Quitar anuncios", la transacción es procesada completamente por el sistema de facturación de Google Play. No recibimos ni almacenamos tus datos de pago — solo una confirmación de que la compra se completó, guardada localmente en tu dispositivo para desactivar los anuncios.</p>
+
+    <h2>5. Privacidad de menores</h2>
+    <p>FitDosis es una calculadora de nutrición de audiencia general y no está dirigida a menores de edad. No recolectamos intencionalmente información personal de menores. La app no solicita ni almacena ninguna información que identifique a un usuario como menor de edad.</p>
+
+    <h2>6. Aviso sobre salud</h2>
+    <p>FitDosis ofrece estimaciones nutricionales generales basadas en fórmulas publicadas (como Mifflin-St Jeor) y no reemplaza el consejo médico o nutricional profesional. Consultá siempre a un profesional de la salud calificado antes de hacer cambios importantes en tu alimentación o rutina de ejercicio.</p>
+
+    <h2>7. Conservación y eliminación de datos</h2>
+    <p>Como todos los datos personales se guardan localmente en tu dispositivo, podés eliminarlos en cualquier momento usando las opciones de "eliminar historial" dentro de la app, o desinstalando la app, lo cual elimina todos los datos almacenados localmente.</p>
+
+    <h2>8. Cambios a esta política</h2>
+    <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Los cambios se reflejarán en esta misma página con una fecha de "Última actualización" actualizada.</p>
+
+    <h2>9. Contacto</h2>
+    <p>Si tenés preguntas sobre esta Política de Privacidad, podés escribirnos a: <a href="mailto:chakra.akasha@gmail.com">chakra.akasha@gmail.com</a></p>
+  </section>
+
+  <footer>
+    FitDosis © 2026 — Matteo Dev
+  </footer>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('section.lang').forEach(s => s.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
